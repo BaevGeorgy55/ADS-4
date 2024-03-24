@@ -44,12 +44,10 @@ int countPairs3(int *arr, int len, int value) {
         }
         break;
       }
-      else if (arr[midle] > razn) {
+      else if (arr[midle] > razn)
         right = midle - 1;
-      }
-      else {
+      else
         left = midle + 1;
-      }
     }
   }
   return cntr;
